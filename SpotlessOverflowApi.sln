@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotlessOverflowApi", "SpotlessOverflowApi\SpotlessOverflowApi.csproj", "{DFE21C35-301F-45BA-BFB6-484AF636C53F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Presentation", "4 - Presentation", "{9EA31E16-A00D-4862-969D-6AE7CA6236DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{5AC96AED-C7E9-4AD3-A8E0-13BBF4CC054B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{287E27FC-06E0-4599-AF09-BCAC3B0115DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{81FE1D60-6CD0-4686-985A-FB1F54F5423D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{625B329C-BD8C-4206-A242-C625BF1BDAEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1480701F-96D5-4EF2-A282-906B407A1413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA} = {625B329C-BD8C-4206-A242-C625BF1BDAEA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE21C35-301F-45BA-BFB6-484AF636C53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE21C35-301F-45BA-BFB6-484AF636C53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE21C35-301F-45BA-BFB6-484AF636C53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE21C35-301F-45BA-BFB6-484AF636C53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1480701F-96D5-4EF2-A282-906B407A1413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1480701F-96D5-4EF2-A282-906B407A1413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1480701F-96D5-4EF2-A282-906B407A1413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1480701F-96D5-4EF2-A282-906B407A1413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFE21C35-301F-45BA-BFB6-484AF636C53F} = {9EA31E16-A00D-4862-969D-6AE7CA6236DC}
+		{625B329C-BD8C-4206-A242-C625BF1BDAEA} = {5AC96AED-C7E9-4AD3-A8E0-13BBF4CC054B}
+		{1480701F-96D5-4EF2-A282-906B407A1413} = {287E27FC-06E0-4599-AF09-BCAC3B0115DC}
+		{EDF79DDA-384C-4FCB-BD28-950D80ABD5FB} = {81FE1D60-6CD0-4686-985A-FB1F54F5423D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1AA0757-FDEF-4E54-B9BC-60510D0D40B0}
+	EndGlobalSection
+EndGlobal
